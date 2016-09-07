@@ -13,7 +13,7 @@ public class Opdracht22 extends Applet {
         g.setColor(Color.blue);
         g.drawString("Danny", 50, 60 );
         g.setColor(Color.red);
-        g.drawString("Metz", 50, 75 );
+        g.drawString("Mets", 50, 75 );
     }
 }
 
