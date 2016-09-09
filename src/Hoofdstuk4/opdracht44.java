@@ -33,7 +33,7 @@ public class opdracht44 extends Applet {
         g.setColor(Color.blue);
         g.fillRect(200, 50, 50, 540);
 
-        g.setColor(Color.yellow);
+        g.setColor(Color.red);
         g.fillRect(300, 180, 50, 410);
 
 
