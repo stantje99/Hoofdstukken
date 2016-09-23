@@ -55,7 +55,7 @@ public class opdracht81 extends Applet {
 
     class Knop2Listener implements ActionListener {
         public void actionPerformed( ActionEvent e ) {
-            s = "www.google.com/h/u/b/p/o/r/n/harambe/alacbar";
+            s = "";
 
             repaint();
         }
