@@ -13,7 +13,7 @@ public class Praktijkopdracht10 extends Applet {
     Button knop;
     double invoer;
 
-    boolean geklikt;
+    boolean geklikkt;
 
     public void init() {
         super.init();
@@ -33,7 +33,7 @@ public class Praktijkopdracht10 extends Applet {
         int x = 58;
         int y = 78;
 
-        if(geklikt) {
+        if(geklikkt) {
 
             if(invoer < 4) {
                 g.drawString("Het cijfer is: slecht", x, y);
@@ -66,7 +66,7 @@ public class Praktijkopdracht10 extends Applet {
             String s = tekstveld.getText();
             invoer = Double.parseDouble(s);
 
-            geklikt = true;
+            geklikkt = true;
 
 
             repaint();
