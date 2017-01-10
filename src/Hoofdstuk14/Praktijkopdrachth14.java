@@ -126,7 +126,7 @@ public class Praktijkopdrachth14 extends Applet {
                 }
             } else {
                 beurt = false;
-                beurtt = true;
+                
             }
             repaint();
         }
